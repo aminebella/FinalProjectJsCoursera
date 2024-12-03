@@ -16,13 +16,12 @@ function showMsgInBox (){
 
 }
 
-    var images=document.getElementsByClassName("preview");
-    for(let i=0;i<images.length;i++){
-        images[i].setAttribute("tabindex",0);
-    }
-
-    var links=document.getElementsByTagName("a");
-    for(let i=0;i<links.length;i++){
-        links[i].setAttribute("tabindex",-1);
-    }
+var images=document.getElementsByClassName("preview");
+for(let i=0;i<images.length;i++){
+    images[i].setAttribute("tabindex",0);
+}
+var links=document.getElementsByTagName("a");
+for(let i=0;i<links.length;i++){
+    links[i].setAttribute("tabindex",-1);
+}
 
