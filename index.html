@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="dist/css/lightbox.css" rel="stylesheet" />
 </head>
-<body onload="">
+<body onload="loadingPage()">
+    <div id="loading">Loading...</div>
+
 
     <div id = "image">
 		Hover over an image below to display here.
@@ -15,7 +17,7 @@
     
     <div>
         <a href="imgs/im1.jpg" data-lightbox="memes" data-title="sus cat">
-            <img class = "preview" src="imgs/im1.jpg" alt="the cat looking suspectly, while eating" onmouseover = "showImgInBox(this)" onmouseout = "showMsgInBox()" onfocus="showImgInBox(this)" onblur="showMsgInBox()">
+            <img class = "preview" src="imgs/im1.jpg" alt="the cat looking suspectly, while eating" onmouseover= "showImgInBox(this)" onmouseout = "showMsgInBox()" onfocus="showImgInBox(this)" onblur="showMsgInBox()">
         </a>
         <a href="imgs/im2.jpg" data-lightbox="memes" data-title="standing cat">
             <img class = "preview" src="imgs/im2.jpg" alt="the cat is standing and looking at you" onmouseover = "showImgInBox(this)" onmouseout = "showMsgInBox()" onfocus="showImgInBox(this)" onblur="showMsgInBox()">
